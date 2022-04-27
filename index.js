@@ -10,7 +10,7 @@ const TmpUserBS = new Map();
 
 client.once('ready', () => {
     console.log('Ready!');
-    client.user.setActivity("SMO Instance 1.3");
+    client.user.setActivity("Returned");
 });
 
 const events = fs.readdirSync("./events").filter(file => file.endsWith(".js"));
